@@ -48,9 +48,9 @@ const Projects = () => {
       description: "A modern, responsive portfolio website with smooth animations and interactive elements.",
       image: "/portfolio.png",
       category: "web",
-      technologies: ["Next.js", "Framer Motion", "Tailwind", "TypeScript"],
-      demoUrl: "#",
-      codeUrl: "#",
+      technologies: ["Next.js", "Framer Motion", "Tailwind"],
+      demoUrl: "https://the-portfolio-eight.vercel.app/",
+      codeUrl: "https://github.com/aman-SINGH7999/the_portfolio",
       featured: false
     },
     {
