@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all');
-  const [hoveredProject, setHoveredProject] = useState<number | null>(null);
+  const [hoveredProject, setHoveredProject] = useState(null);
 
   const filters = ['all', 'web', 'mobile', 'fullstack'];
 
