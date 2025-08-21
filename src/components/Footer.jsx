@@ -144,29 +144,7 @@ const Footer = () => {
         
         </div>
 
-        {/* Bottom Bar */}
-        <div className="border-t border-white/10">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.6, delay: 0.8 }}
-              viewport={{ once: true }}
-              className="flex flex-col md:flex-row items-center justify-between"
-            >
-              <div className="flex items-center text-gray-400 text-sm mb-4 md:mb-0">
-                <span>© 2024 Your Name. Made with</span>
-                <Heart className="w-4 h-4 mx-2 text-red-500 animate-pulse" />
-                <span>and lots of ☕</span>
-              </div>
-              <div className="flex items-center space-x-6 text-sm text-gray-400">
-                <a href="#" className="hover:text-purple-400 transition-colors duration-300">Privacy Policy</a>
-                <a href="#" className="hover:text-purple-400 transition-colors duration-300">Terms of Service</a>
-                <span>Built with Next.js & Tailwind CSS</span>
-              </div>
-            </motion.div>
-          </div>
-        </div>
+    
       </div>
 
       {/* Scroll to Top Button */}

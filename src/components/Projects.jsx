@@ -157,7 +157,7 @@ const Projects = () => {
                   }`}>
                     <a
                       href={project.demoUrl}
-                      className="bg-white/20 backdrop-blur-sm border border-white/30 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-white/30 hover:scale-105"
+                      className="bg-gray-900/60 backdrop-blur-sm border border-gray-600 text-white px-6 py-3 rounded-full font-medium transition-all duration-300 hover:bg-gray-800/60 hover:scale-105"
                     >
                       Live Demo
                     </a>
